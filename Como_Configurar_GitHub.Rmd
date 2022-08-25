@@ -140,7 +140,11 @@ Execute no terminal os comandos.
 
 ![](images/paste-6E68DFFF.png)
 
-Pronto. Seu projeto já esta no GitHub!
+Pronto. Seu projeto já esta no GitHub!\
+
+Quando realizar alterações nos arquivos, você vera os arquivos alterados na Aba Git. Basta selecioná-los, commitá-los e então usar o botão Push para submeter ras alterações.
+
+![](images/paste-3685481C.png)
 
 ### Submeter um diretório para o GitHub
 
