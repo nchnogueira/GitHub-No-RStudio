@@ -5,29 +5,21 @@ date: "`r Sys.Date()`"
 output: html_document
 ---
 
-# Introdução
-
-Então, esse vai ser um documento informal, mais como uma forma de registrar meu aprendizado e compartilhar com vocês da equipe. Passei umas 3 horas lutando contra o Git, GitHub e o RStudio para entender isso. Sinceramente, as pessoas que programa essas coisas foram muito espertas e muito burras ao mesmo tempo. O processo todo não é muito claro, e existem alguns muitos tutoriais na internet que tem um pouco da coisa mas não tem tudo.
-
-Vou tentar então juntar tudo que consegui aqui em um documento só.
-
 ### Primeiro passo
 
 Instale o R.\
 Instale o RStudio.\
 Instale o Git.
 
-Instalar o R e o RStudio é bem simples, e bem, acredito que já esteja tudo certo por ai. Você pode encontrar o Git neste [link](https://git-scm.com/downloads).
+Instalar o R e o RStudio é direto, assim como o Git. Você pode encontrar o donwload do Git neste [link](https://git-scm.com/downloads). Basta fazer o Download e seguir com o processo de instalação.
 
 ![](images/paste-544FA3E4.png)
-
-Basta fazer o Download e seguir com o processo de instalação. Não entendi o que metade das configurações de instalação significavam, mas eu só fui clicando prosseguir e a coisa toda funcionou.
 
 ![](images/paste-C5DE8947.png)
 
 ### Segundo passo
 
-Crie uma conta no GitHub.
+Crie uma conta no [GitHub](https://github.com/).
 
 ### Terceiro passo: diga "oi" para o Git.
 
@@ -76,12 +68,16 @@ Em seguida, cole o token utilizando a seguinte função:
 # gitcreds::gitcreds_set()
 ```
 
+![](images/paste-41F9353D.png)
+
+No caso da imagem acima, usaria a segunda opção.
+
 Reinicie o R.
 
 Cheque se deu tudo certo:
 
 ```{r}
-usethis::git_sitrep()
+# usethis::git_sitrep()
 # > Git config (global)
 #> ● Name: 'SEU NOME DEVE APARECER AQUI'
 #> ● Email: 'SEU EMAIL DEVE APARECER AQUI'
@@ -124,7 +120,7 @@ Digite uma mensagem de resumo para seu Commit.
 
 ![](images/paste-9ED2ED94.png)
 
-Aguarde a operação ser concluída e fecha as janelas.
+Aguarde a operação ser concluída e feche as janelas.
 
 ![](images/paste-91E63355.png)
 

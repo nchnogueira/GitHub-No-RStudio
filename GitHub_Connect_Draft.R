@@ -6,9 +6,15 @@
 git config --global user.name 'PExCCA-LAMET-UENF'
 git config --global user.email 'pexcca,lamet@uenf.br'
 
+git config --global user.name 'NicolasNogueira92'
+git config --global user.email 'NicolasNogueira92@ufrj.br'
+
 # Instalar pacote usethis
 usethis::use_git_config(user.name = "PExCCA-LAMET-UENF",
                         user.email = "pexcca.lamet@uenf.br")
+
+usethis::use_git_config(user.name = "NicolasNogueira92",
+                        user.email = "NicolasNogueira92@ufrj.br")
 
 # Criar um token de autenticação em sua conta do GitHub
 usethis::create_github_token()
