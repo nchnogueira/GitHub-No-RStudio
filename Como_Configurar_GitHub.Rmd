@@ -124,6 +124,24 @@ Digite uma mensagem de resumo para seu Commit.
 
 ![](images/paste-9ED2ED94.png)
 
+Aguarde a operação ser concluída e fecha as janelas.
+
+![](images/paste-91E63355.png)
+
+Abra o GitHub.com e crie um novo diretório.
+
+![](images/paste-77026FBA.png)
+
+Copie o campo "**...or push an existing repository from the command line**"
+
+![](images/paste-93BA7962.png)
+
+Execute no terminal os comandos.
+
+![](images/paste-6E68DFFF.png)
+
+Pronto. Seu projeto já esta no GitHub!
+
 ### Submeter um diretório para o GitHub
 
 Agora complica um pouquinho...
