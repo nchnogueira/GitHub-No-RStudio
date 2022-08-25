@@ -11,7 +11,7 @@ Instale o R.\
 Instale o RStudio.\
 Instale o Git.
 
-Instalar o R e o RStudio é direto, assim como o Git. Você pode encontrar o donwload do Git neste [link](https://git-scm.com/downloads). Basta fazer o Download e seguir com o processo de instalação.
+Instalar o R e o RStudio é direto, assim como o Git. Você pode encontrar o donwload do Git neste [link](https://git-scm.com/downloads). Basta fazer o Download e seguir com o processo de instalação normalmente.
 
 ![](images/paste-544FA3E4.png)
 
